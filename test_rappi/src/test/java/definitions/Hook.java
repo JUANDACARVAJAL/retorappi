@@ -12,7 +12,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 public class Hook {
 
     @Managed(driver = "chrome")
-    public WebDriver hisBrowser;
+    public static WebDriver hisBrowser;
 
     @Before
     public void beforeAll() {

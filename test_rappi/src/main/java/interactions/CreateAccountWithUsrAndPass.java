@@ -9,13 +9,11 @@ import net.serenitybdd.screenplay.actions.Scroll;
 import utils.TestData;
 
 import static userinterface.CreateAccountPage.*;
-import static userinterface.HomePage.CLOSE_POP_UP;
-import static userinterface.HomePage.CREATE_ACCOUNT;
 
-public class CreateAccount implements Interaction {
+public class CreateAccountWithUsrAndPass implements Interaction {
 
     public static Performable forUser() {
-        return new CreateAccount();
+        return new CreateAccountWithUsrAndPass();
     }
 
     @Override
@@ -23,11 +21,7 @@ public class CreateAccount implements Interaction {
         Enter.keyValues(TestData.getTestdata().get(0).get("email")).into(EMAIL_TEXTBOX).performAs(actor);
         Enter.keyValues(TestData.getTestdata().get(0).get("clave")).into(PASSWORD_TEXTBOX).performAs(actor);
 
-       // Scroll.to(SIGN_UP_BUTTON).performAs(actor);
-        //Click.on(SIGN_UP_BUTTON).performAs(actor);
-
-       // Scroll.to(TERMS_CONDITION).performAs(actor);
-
-        Click.on(TERMS_CONDITION).performAs(actor);
+        Scroll.to(FOOT_PAGE).performAs(actor);
+        Click.on(SIGN_UP_BUTTON).performAs(actor);
     }
 }

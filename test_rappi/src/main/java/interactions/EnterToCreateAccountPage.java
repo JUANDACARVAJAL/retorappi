@@ -8,10 +8,10 @@ import net.serenitybdd.screenplay.actions.Click;
 import static userinterface.HomePage.CLOSE_POP_UP;
 import static userinterface.HomePage.CREATE_ACCOUNT;
 
-public class EnterToCreateAccount implements Interaction {
+public class EnterToCreateAccountPage implements Interaction {
 
     public static Performable user() {
-        return new EnterToCreateAccount();
+        return new EnterToCreateAccountPage();
     }
 
     @Override
