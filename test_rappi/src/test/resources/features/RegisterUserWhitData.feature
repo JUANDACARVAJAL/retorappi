@@ -14,3 +14,16 @@ Feature: Rigister user whit data
     Examples:
       |email|clave|firstName|lastName|month|day|year|genere|country|area|phone|
       |juanda.carva@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
+
+
+  Scenario Outline: Search cruser
+
+    Given that the user login on page
+      |email|clave|firstName|lastName|month|day|year|genere|country|area|phone|
+      |<email>|<clave>|<firstName>|<lastName>|<month>|<day>|<year>|<genere>|<country>|<area>|<phone>|
+    When the user enters to search her cruser
+    Then the user can save the search
+
+    Examples:
+      |email|clave|firstName|lastName|month|day|year|genere|country|area|phone|
+      |juanda.car

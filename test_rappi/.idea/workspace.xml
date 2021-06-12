@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958fcd23-0b70-4fa5-8d30-d2289486479a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/CompleteYourProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/SeeTheRegisterPopUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/CompleteTheCreationAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/CompleteProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/RegisterSuccessPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interactions/CreateAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interactions/CreateAccountWithUsrAndPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interactions/EnterToCreateAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interactions/EnterToCreateAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/EnterTheRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/EnterTheRegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/CreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/CreateAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/DefRegisterUserWhitData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/DefRegisterUserWhitData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
