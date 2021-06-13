@@ -6,14 +6,14 @@ Feature: Rigister user whit data
   Scenario Outline: Rigister user with all data
 
     Given that the user tries to register on the page
-      |email|clave|firstName|lastName|month|day|year|genere|country|area|phone|
-      |<email>|<clave>|<firstName>|<lastName>|<month>|<day>|<year>|<genere>|<country>|<area>|<phone>|
+      |email|clave|firstName|lastName|month|day|year|gender|country|area|phone|
+      |<email>|<clave>|<firstName>|<lastName>|<month>|<day>|<year>|<gender>|<country>|<area>|<phone>|
     When the user enters all the data
     Then the user is registered
 
     Examples:
-      |email|clave|firstName|lastName|month|day|year|genere|country|area|phone|
-      |juanda.carva@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
+      |email|clave|firstName|lastName|month|day|year|gender|country|area|phone|
+      |juanda.carva17@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
 
 
   Scenario Outline: Search cruser
@@ -26,4 +26,4 @@ Feature: Rigister user whit data
 
     Examples:
       |email|clave|firstName|lastName|month|day|year|genere|country|area|phone|
-      |juanda.car
+      |juanda.carva@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|

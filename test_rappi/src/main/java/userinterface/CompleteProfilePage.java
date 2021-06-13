@@ -1,7 +1,7 @@
 package userinterface;
 
+import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.targets.Target;
-import org.openqa.selenium.By;
 
 public class CompleteProfilePage {
 
@@ -22,11 +22,8 @@ public class CompleteProfilePage {
 
     public static final Target WORK_WITH_AGENT_CHECKBOX = Target.the("Work with an agent").located(By.xpath("//*[@id=\"MainBody\"]//label[@for='workingWithTravelAgent-pm']"));
     public static final Target ACCEPTS_OFFERS_CHECKBOX = Target.the("Accepts offers").located(By.xpath("//*[@id=\"MainBody\"]//label[@for='acceptsOffers-pm']"));
-    public static final Target ACCEPTS_TERMS_CHECKBOX = Target.the("Accepts terms and conditions").located(By.xpath("//label[@for='acceptsTermsAndConditions-pm']/ancestor::before[@class='ff-label ffr-label ff-label-block']"));
 
+    public static final Target ACCEPTS_TERMS_CHECKBOX = Target.the("Accepts terms and conditions").located(By.xpath("//label[@for='acceptsTermsAndConditions-pm']"));
     public static final Target SUBMIT_BUTTON = Target.the("Submit Button").located(By.id("submit-guest-pm"));
-
-
-
 
 }

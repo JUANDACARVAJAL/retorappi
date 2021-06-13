@@ -1,5 +1,6 @@
 package interactions;
 
+
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
@@ -7,8 +8,11 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.Coordinates;
 import utils.TestData;
 
+import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 import static userinterface.CompleteProfilePage.*;
 
 public class CompleteYourProfile implements Interaction {
@@ -29,7 +33,7 @@ public class CompleteYourProfile implements Interaction {
         Enter.keyValues(TestData.getTestdata().get(0).get("year")).into(YEAR_BD_SELECTOR).performAs(actor);
 
         Click.on(GENDER_SELECTOR).performAs(actor);
-        SelectFromOptions.byVisibleText(TestData.getTestdata().get(0).get("genere")).from(GENDER_SELECTOR).performAs(actor);
+        SelectFromOptions.byVisibleText(TestData.getTestdata().get(0).get("gender")).from(GENDER_SELECTOR).performAs(actor);
 
         Click.on(COUNTRY_SELECTOR).performAs(actor);
         SelectFromOptions.byVisibleText(TestData.getTestdata().get(0).get("country")).from(COUNTRY_SELECTOR).performAs(actor);
@@ -42,12 +46,16 @@ public class CompleteYourProfile implements Interaction {
         Click.on(WORK_WITH_AGENT_CHECKBOX).performAs(actor);
         Click.on(ACCEPTS_OFFERS_CHECKBOX).performAs(actor);
 
+        selectTermsAndConditions(actor);
 
-       // Click.on(ACCEPTS_TERMS_CHECKBOX).performAs(actor);
-
+        Scroll.to(SUBMIT_BUTTON).performAs(actor);
         Click.on(SUBMIT_BUTTON).performAs(actor);
-
-
-
     }
+
+    private void selectTermsAndConditions(Actor actor){
+        Coordinates positionXY = ACCEPTS_TERMS_CHECKBOX.resolveFor(actor).getCoordinates();
+        Actions action = new Actions(getDriver());
+        action.moveByOffset(positionXY.onPage().x+50,positionXY.onPage().y+5).click().perform();
+    }
+
 }

@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958fcd23-0b70-4fa5-8d30-d2289486479a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/test_rappi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_rappi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interactions/CompleteYourProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interactions/CompleteYourProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/questions/SeeTheRegisterPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/SeeTheRegisterPopUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/EnterTheRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/EnterTheRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/CompleteProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/CompleteProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/RegisterSuccessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/RegisterSuccessPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +39,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="test_rappi" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test_rappi" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -47,6 +60,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1tmamO79ueqIHR1mIQRQht290rK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -66,7 +87,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -75,6 +96,7 @@
       <recent name="tasks" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -126,28 +148,16 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interactions/CreateAccountWithUsrAndPass.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interactions/CreateAccountWithUsrAndPass.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interactions/CompleteYourProfile.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interactions/CompleteYourProfile.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="28" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test_rappi$RunregisterUserWhitData.ic" NAME="RunregisterUserWhitData Coverage Results" MODIFIED="1623473673211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

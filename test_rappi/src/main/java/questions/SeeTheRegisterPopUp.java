@@ -2,13 +2,13 @@ package questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import org.assertj.core.api.SoftAssertions;
 
-import static userinterface.RegisterSuccessPage.*;
+import static org.hamcrest.core.IsEqual.equalTo;
+import static org.junit.Assert.assertThat;
+import static userinterface.RegisterSuccessPage.POPUP_PAGE;
 
 public class SeeTheRegisterPopUp implements Question<Boolean> {
 
-    private static SoftAssertions validateContinuos = new SoftAssertions();
 
     public static SeeTheRegisterPopUp expected() {
         return new SeeTheRegisterPopUp();
@@ -16,11 +16,8 @@ public class SeeTheRegisterPopUp implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        validateContinuos.assertThat(POPUP_PAGE.resolveFor(actor).isPresent()).as("Pop-up success").isTrue();
-        validateContinuos.assertThat(YES_BUTTON.resolveFor(actor).isPresent()).as("Yes Button present").isTrue();
-        validateContinuos.assertThat(NOT_BUTTON.resolveFor(actor).isPresent()).as("Not yet Button present").isTrue();
-        validateContinuos.assertAll();
-        return true;
+        assertThat(POPUP_PAGE.getName(), POPUP_PAGE.resolveFor(actor).isPresent(), equalTo(true));
+       return true;
     }
 
 }
