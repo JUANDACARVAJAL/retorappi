@@ -1,7 +1,6 @@
 package tasks;
 
 
-import interactions.CreateAccountWithUsrAndPass;
 import interactions.EnterToCreateAccountPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
@@ -18,7 +17,5 @@ public class EnterTheRegistrationPage implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(EnterToCreateAccountPage.user());
-
-
     }
 }
