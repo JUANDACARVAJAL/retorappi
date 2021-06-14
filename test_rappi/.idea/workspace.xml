@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958fcd23-0b70-4fa5-8d30-d2289486479a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/test_rappi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_rappi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interactions/CompleteYourProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interactions/CompleteYourProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/SeeTheRegisterPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/SeeTheRegisterPopUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/EnterTheRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/EnterTheRegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/CompleteProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/CompleteProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/RegisterSuccessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/RegisterSuccessPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/CruiseOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/CruiseOptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunregisterUserWhitData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunregisterUserWhitData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +33,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="test_rappi" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="test_rappi" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -92,8 +82,8 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="questions" />
-      <recent name="interactions" />
       <recent name="tasks" />
+      <recent name="interactions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -104,6 +94,8 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="interactions" />
+      <recent name="definitions" />
+      <recent name="userinterface" />
     </key>
   </component>
   <component name="RunManager">
@@ -154,6 +146,12 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="li.getText()" language="JAVA" />
+        <watch expression="countriesList" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -2,14 +2,9 @@ plugins {
     id 'java'
 }
 
-group 'com.carnival'
-version '1.0-SNAPSHOT'
-
 repositories {
     mavenCentral()
 }
-
-
 
 ext{
     serenityCoreVersion = "2.3.12"
