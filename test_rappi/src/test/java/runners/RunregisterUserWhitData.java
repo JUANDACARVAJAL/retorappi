@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/features/RegisterUserWhitData.feature"},
         glue = {"definitions"}
-)
+        )
 
 public class RunregisterUserWhitData {
 }

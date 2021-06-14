@@ -2,28 +2,28 @@ Feature: Rigister user whit data
   As a user I want to be able
   to create my user by filling in all the fields of the form
 
-
+  @Rgister
   Scenario Outline: Rigister user with all data
 
-    Given that the user tries to register on the page
+    Given Upload test data values
       |email|clave|firstName|lastName|month|day|year|gender|country|area|phone|
       |<email>|<clave>|<firstName>|<lastName>|<month>|<day>|<year>|<gender>|<country>|<area>|<phone>|
-    When the user enters all the data
+    When the user try to register account
     Then the user is registered
 
     Examples:
       |email|clave|firstName|lastName|month|day|year|gender|country|area|phone|
       |juanda.carva17@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
 
-
+  @Login
   Scenario Outline: Search cruser
 
-    Given that the user login on page
-      |email|clave|firstName|lastName|month|day|year|genere|country|area|phone|
-      |<email>|<clave>|<firstName>|<lastName>|<month>|<day>|<year>|<genere>|<country>|<area>|<phone>|
-    When the user enters to search her cruser
+    Given Upload test data values
+      |email|clave|sailto|duration|
+      |<email>|<clave>|<sailto>|<duration>|
+    When the user try to search a $cruise
     Then the user can save the search
 
     Examples:
-      |email|clave|firstName|lastName|month|day|year|genere|country|area|phone|
-      |juanda.carva@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
+      |email|clave|sailto|duration|
+      |juanda.carva@gmail.com|Qwer1234|The Bahamas|6 - 9 Days|
