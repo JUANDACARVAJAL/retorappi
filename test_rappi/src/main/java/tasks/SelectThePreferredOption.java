@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,6 +29,7 @@ public class SelectThePreferredOption implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         selectSailToOption(CRUISE_OPTIONS);
+        Scroll.to(SAVE_BUTTON).performAs(actor);
         actor.attemptsTo(WaitUntil.the(SAVE_BUTTON, isClickable()).forNoMoreThan(WAIT_TIME*100).seconds(),Click.on(SAVE_BUTTON));
     }
 

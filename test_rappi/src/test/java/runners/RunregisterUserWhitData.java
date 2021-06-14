@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = {"src/test/resources/features/RegisterUserWhitData.feature"},
-        glue = {"definitions"}
+        glue = {"definitions"},
+        tags = "@Login"
         )
 
 public class RunregisterUserWhitData {
