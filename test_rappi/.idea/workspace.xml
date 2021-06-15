@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="958fcd23-0b70-4fa5-8d30-d2289486479a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/questions/SavedSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/SavedSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/CruiseOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/CruiseOptionPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunregisterUserWhitData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunregisterUserWhitData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,12 +144,23 @@
           <properties class="java.lang.AssertionError" package="java.lang" />
           <option name="timeStamp" value="28" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/SavedSearch.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="li.getText()" language="JAVA" />
         <watch expression="countriesList" language="JAVA" />
+        <watch expression="SAVE_BUTTON.resolveFor(actor).getText()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
