@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="958fcd23-0b70-4fa5-8d30-d2289486479a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/SavedSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/SavedSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interactions/EnterToLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interactions/EnterToLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/CruiseOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/CruiseOptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunregisterUserWhitData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunregisterUserWhitData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +152,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java</url>
-          <line>30</line>
+          <line>34</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
