@@ -16,7 +16,7 @@ public class SavedSearch implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        assertThat(SAVE_BUTTON.getName(), SAVE_BUTTON.resolveFor(actor).getText(), equalTo("Saved"));
+        assertThat(SAVE_BUTTON.getName(), SAVE_BUTTON.resolveFor(actor).getText(), equalTo("SAVE BOOKING"));
 
         return true;
     }
