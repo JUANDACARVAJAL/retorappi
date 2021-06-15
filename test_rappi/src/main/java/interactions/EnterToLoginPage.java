@@ -5,8 +5,7 @@ import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static userinterface.HomePage.CLOSE_POP_UP;
-import static userinterface.HomePage.LOGIN_ACCOUNT;
+import static userinterface.HomePage.*;
 import static utils.FunctionGeneric.stopWeb;
 
 public class EnterToLoginPage implements Interaction {
@@ -18,6 +17,7 @@ public class EnterToLoginPage implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         stopWeb();
+        Click.on(CLOSE_COOKIES).performAs(actor);
         Click.on(CLOSE_POP_UP).performAs(actor);
         Click.on(LOGIN_ACCOUNT).performAs(actor);
     }
