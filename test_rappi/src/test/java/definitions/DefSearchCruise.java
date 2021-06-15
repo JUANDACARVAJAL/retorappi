@@ -27,4 +27,13 @@ public class DefSearchCruise {
     }
 
 
+    @When("^the user try to change la busqueda$")
+    public void theUserTryToChangeLaBusqueda() {
+        
+    }
+
+    @Then("^the user can change$")
+    public void theUserCanChange() {
+
+    }
 }

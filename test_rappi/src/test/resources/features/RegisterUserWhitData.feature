@@ -13,7 +13,7 @@ Feature: Rigister user whit data
 
     Examples:
       |email|clave|firstName|lastName|month|day|year|gender|country|area|phone|
-      |juanda.carva23@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
+      |juanda.carva24@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
 
   @Login
   Scenario Outline: Search cruser
@@ -23,6 +23,19 @@ Feature: Rigister user whit data
       |<email>|<clave>|<sailto>|<duration>|
     When the user try to search a $cruise
     Then the user can save the search
+
+    Examples:
+      |email|clave|sailto|duration|
+      |juanda.carva@gmail.com|Qwer1234|The Bahamas|6 - 9 Days|
+
+    @Change
+    Scenario Outline: Change cruser
+
+      Given Upload test data values
+      |email|clave|sailto|duration|
+      |<email>|<clave>|<sailto>|<duration>|
+    When the user try to change la busqueda
+    Then the user can change
 
     Examples:
       |email|clave|sailto|duration|
