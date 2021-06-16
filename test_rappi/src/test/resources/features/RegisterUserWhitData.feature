@@ -28,12 +28,13 @@ Feature: Rigister user whit data
       |email|clave|sailto|duration|
       |juanda.carva@gmail.com|Qwer1234|The Bahamas|6 - 9 Days|
 
-    @Change
-    Scenario Outline: Change cruser
+  @Change
+  Scenario Outline: Change cruser
 
-      Given Upload test data values
+    Given Upload test data values
       |email|clave|sailto|duration|
       |<email>|<clave>|<sailto>|<duration>|
+    When the user try to search a $cruise
     When the user try to change la busqueda
     Then the user can change
 

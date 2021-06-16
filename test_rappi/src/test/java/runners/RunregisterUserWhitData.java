@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/features/RegisterUserWhitData.feature"},
         glue = {"definitions"}
-        ,tags = {"@Login"}
         )
 
 public class RunregisterUserWhitData {
