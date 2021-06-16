@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958fcd23-0b70-4fa5-8d30-d2289486479a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/EnterToSavedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/ModifyTheSaved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/EnterToListSaved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/GoToSavedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/SavedPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunregisterUserWhitData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunregisterUserWhitData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interactions/SearchSailTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interactions/SearchSailTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/DefSearchCruise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/DefSearchCruise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterUserWhitData.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +85,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="questions" />
       <recent name="tasks" />
       <recent name="interactions" />
+      <recent name="definitions" />
+      <recent name="questions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -91,8 +99,8 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="interactions" />
-      <recent name="definitions" />
       <recent name="userinterface" />
+      <recent name="definitions" />
     </key>
   </component>
   <component name="RunManager">
@@ -146,20 +154,8 @@
           <line>18</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tasks/SelectThePreferredOption.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="GradleRunConfiguration">
-        <watch expression="li.getText()" language="JAVA" />
-        <watch expression="countriesList" language="JAVA" />
-        <watch expression="SAVE_BUTTON.resolveFor(actor).getText()" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

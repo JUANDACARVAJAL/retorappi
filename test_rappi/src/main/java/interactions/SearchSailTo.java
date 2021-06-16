@@ -42,6 +42,7 @@ public class SearchSailTo implements Interaction {
         for (WebElement li : countriesList) {
             if (li.getText().equals(valueSelected)) {
                 li.click();
+                break;
             }
         }
     }
