@@ -13,20 +13,10 @@ public class LoadTheTestData implements Task {
 
     private static List<Map<String, String>> arg1;
 
-
-    public static List<Map<String, String>> getArg1() {
-        return arg1;
-    }
-
-    public static void setArg1(List<Map<String, String>> arg1) {
-        LoadTheTestData.arg1 = arg1;
-    }
-
     public static Performable values(List<Map<String, String>> arg1) {
         LoadTheTestData.arg1 = arg1;
         return Tasks.instrumented(LoadTheTestData.class,arg1);
     }
-
 
     @Override
     public <T extends Actor> void performAs(T actor) {

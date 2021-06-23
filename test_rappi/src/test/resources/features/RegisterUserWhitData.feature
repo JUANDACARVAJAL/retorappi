@@ -13,7 +13,7 @@ Feature: Rigister user whit data
 
     Examples:
       |email|clave|firstName|lastName|month|day|year|gender|country|area|phone|
-      |juanda.carva25@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
+      |juanda.carva21@gmail.com|Qwer1234|juanda|carva|April|1|1990|Male|Colombia|34|30055555|
 
   @Login
   Scenario Outline: Search cruser

@@ -23,14 +23,14 @@ public class CompleteYourProfile implements Interaction {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        Enter.keyValues(TestData.getTestdata().get(0).get("firstName")).into(FIRST_NAME_TEXTBOX).performAs(actor);
-        Enter.keyValues(TestData.getTestdata().get(0).get("lastName")).into(LAST_NAME_TEXTBOX).performAs(actor);
+        Enter.theValue(TestData.getTestdata().get(0).get("firstName")).into(FIRST_NAME_TEXTBOX).performAs(actor);
+        Enter.theValue(TestData.getTestdata().get(0).get("lastName")).into(LAST_NAME_TEXTBOX).performAs(actor);
 
         Scroll.to(MONTH_BD_SELECTOR).performAs(actor);
         Click.on(MONTH_BD_SELECTOR).performAs(actor);
         SelectFromOptions.byVisibleText(TestData.getTestdata().get(0).get("month")).from(MONTH_BD_SELECTOR).performAs(actor);
-        Enter.keyValues(TestData.getTestdata().get(0).get("day")).into(DAY_BD_SELECTOR).performAs(actor);
-        Enter.keyValues(TestData.getTestdata().get(0).get("year")).into(YEAR_BD_SELECTOR).performAs(actor);
+        Enter.theValue(TestData.getTestdata().get(0).get("day")).into(DAY_BD_SELECTOR).performAs(actor);
+        Enter.theValue(TestData.getTestdata().get(0).get("year")).into(YEAR_BD_SELECTOR).performAs(actor);
 
         Click.on(GENDER_SELECTOR).performAs(actor);
         SelectFromOptions.byVisibleText(TestData.getTestdata().get(0).get("gender")).from(GENDER_SELECTOR).performAs(actor);
@@ -40,8 +40,8 @@ public class CompleteYourProfile implements Interaction {
         Scroll.to(COUNTRY_SELECTOR).performAs(actor);
 
 
-        Enter.keyValues(TestData.getTestdata().get(0).get("area")).into(PHONE_AREA_TEXTBOX).performAs(actor);
-        Enter.keyValues(TestData.getTestdata().get(0).get("phone")).into(PHONE_NUMBER_TEXTBOX).performAs(actor);
+        Enter.theValue(TestData.getTestdata().get(0).get("area")).into(PHONE_AREA_TEXTBOX).performAs(actor);
+        Enter.theValue(TestData.getTestdata().get(0).get("phone")).into(PHONE_NUMBER_TEXTBOX).performAs(actor);
 
         Click.on(WORK_WITH_AGENT_CHECKBOX).performAs(actor);
         Click.on(ACCEPTS_OFFERS_CHECKBOX).performAs(actor);
